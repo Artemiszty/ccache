@@ -319,6 +319,7 @@ msvc_args!(static ARGS: [ArgInfo<ArgData>; _] = [
     msvc_flag!("MTd", PassThrough),
     msvc_flag!("O1", PassThrough),
     msvc_flag!("O2", PassThrough),
+    msvc_flag!("O1ib2", PassThrough),
     msvc_flag!("Ob0", PassThrough),
     msvc_flag!("Ob1", PassThrough),
     msvc_flag!("Ob2", PassThrough),
